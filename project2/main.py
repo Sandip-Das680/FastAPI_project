@@ -106,4 +106,5 @@ async def delete_book(book_id: int = Path(gt=0)):
     if not book_changed:
         raise HTTPException(status_code=404, detail='Item not found')
 
+
         
